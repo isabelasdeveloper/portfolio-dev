@@ -1,1 +1,1 @@
-Template SASS + Vite for projects.
+Projeto disponibilizado pela Rocketseat.

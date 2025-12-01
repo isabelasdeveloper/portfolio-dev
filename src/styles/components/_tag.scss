@@ -1,0 +1,15 @@
+@use "/src/styles/abstract/mixins" as mix;
+@use "/src/styles/abstract/variaveis" as var;
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: var.$gray-400;
+  border-radius: 999px;
+  &-title {
+    @include mix.text-md();
+    color: var.$gray-200;
+  }
+}

@@ -1,0 +1,32 @@
+@use "./variaveis" as var;
+
+@mixin fonts($ff, $fs, $lh, $w) {
+  font-family: $ff;
+  font-size: $fs;
+  line-height: $lh;
+  font-weight: $w;
+}
+
+@mixin title-lg() {
+  @include fonts("Asap", 56px, 1.2, 700);
+}
+
+@mixin title-md() {
+  @include fonts("Asap", 24px, 1.2, 700);
+}
+
+@mixin title-sm() {
+  @include fonts("Asap", 16px, 1.2, 700);
+}
+
+@mixin subtitle() {
+  @include fonts("Inconsolata", 20px, 1.2, 400);
+}
+
+@mixin text-md() {
+  @include fonts("Maven Pro", 16px, 1.4, 400);
+}
+
+@mixin text-sm() {
+  @include fonts("Maven Pro", 14px, 1.4, 400);
+}
