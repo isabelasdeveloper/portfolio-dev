@@ -1,4 +1,4 @@
-### 💻 Portfolio Dev
+### 💻 Portfólio Dev
 
 O **Portfolio Dev** é um projeto disponibilizado pela Rocketseat 🚀
 <br/>
