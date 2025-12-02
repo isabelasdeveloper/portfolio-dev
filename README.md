@@ -43,11 +43,11 @@ Se quiser se conectar comigo, acompanhar meus projetos ou trocar ideias sobre de
 
 ---
 
-### 🚀 Agradecimento 
-Agradecimento especial à Rocketseat por disponibilizar o projeto!
+### 🚀 Rocketseat
+Caso queira realizar o desafio, você pode acessar o projeto diretamente na plataforma da Rocketseat.
 <br/>
 <br/>
-[![Figma](https://img.shields.io/badge/Projeto%20no%20Figma-6C5CE7?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1387080701963671866/portfolio-dev)
+[![Rocketseat Project](https://img.shields.io/badge/Desafio%20Rocketseat-6C5CE7?style=for-the-badge&logo=rocket&logoColor=white)](https://app.rocketseat.com.br/projects/desafio-pratico-portfolio-dev?module_slug=desafio-pratico-portfoliodev&origin=%2Fprojects)
 
 
 
