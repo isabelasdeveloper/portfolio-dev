@@ -2,7 +2,6 @@
 
 O **Portfolio Dev** é um projeto disponibilizado pela Rocketseat 🚀
 <br/>
-<br/>
 Aqui você encontra meu perfil, minhas skills, meus projetos e a página de contato.
 
 <img width="600" height="300" alt="Print da tela inicial do projeto" src="https://github.com/user-attachments/assets/f88b7b8d-7ecf-4424-9ec2-997056ca0451" />
