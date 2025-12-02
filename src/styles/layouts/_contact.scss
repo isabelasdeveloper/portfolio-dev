@@ -1,0 +1,62 @@
+@use "/src/styles/abstract/mixins" as mix;
+@use "/src/styles/abstract/variaveis" as var;
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 128px 120px 200px 120px;
+  background-image: url(/public/images/background-contracts.png);
+  gap: 48px;
+  &-intro {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    &-subtitle {
+      @include mix.subtitle();
+      color: var.$purple;
+    }
+    &-title {
+      @include mix.title-md();
+      color: var.$gray-100;
+    }
+    &-description {
+      @include mix.text-md();
+      color: var.$gray-200;
+    }
+  }
+  &-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    &-item {
+      display: flex;
+      width: 400px;
+      justify-content: space-between;
+      background-color: var.$gray-400;
+      padding: 20px;
+      border-radius: 8px;
+      &-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        &-title {
+          @include mix.text-md();
+          color: var.$gray-200;
+        }
+      }
+      &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
