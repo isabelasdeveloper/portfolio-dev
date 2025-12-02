@@ -1,2 +1,56 @@
 @use "/src/styles/abstract/mixins" as mix;
 @use "/src/styles/abstract/variaveis" as var;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var.$gray-400;
+  padding: 12px;
+  border-radius: 12px;
+  gap: 20px;
+  &-img {
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &-title {
+      @include mix.title-sm();
+      color: var.$gray-100;
+    }
+    &-description {
+      @include mix.text-sm();
+      color: var.$gray-200;
+    }
+  }
+}
+
+.card-services {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 2px solid var.$gray-500;
+  padding: 20px;
+  border-radius: 12px;
+  gap: 20px;
+  &-img {
+    width: 48px;
+    height: 48px;
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &-title {
+      @include mix.title-sm();
+      color: var.$gray-100;
+    }
+    &-description {
+      @include mix.text-sm();
+      color: var.$gray-200;
+    }
+  }
+}
